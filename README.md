@@ -8,10 +8,10 @@ SISTEM PENGELOLAAN JADWAL WORKOUT
 
 # Penjelasan
 
->> Deskripsi Program
+Deskripsi Program:
   Program ini adalah aplikasi CLI (command line) sederhana berbasis Python untuk mengelola jadwal latihan olahraga (workout) mingguan. Data disimpan sementara dalam list bersarang (list berisi list)
 
->> List yang saya pakai ada : hari, jenis_olahraga, durasi_menit, sets, reps, status
+List yang saya pakai ada : hari, jenis_olahraga, durasi_menit, sets, reps, status
     Contoh : senin, push day/push up, 30 menit, 3 sets, 12 reps, belum
 
 >> Program menyediakan menu berulang menggunakan (while) dengan pengoperasian penuh terhadap 4 data :

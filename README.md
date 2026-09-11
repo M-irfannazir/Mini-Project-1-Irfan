@@ -4,9 +4,9 @@ Nama : Muhammad Irfan Nazir
 Kelas : B
 NIM : 2609116070
 
-SISTEM PENGELOLAAN JADWAL WORKOUT
+# "SISTEM PENGELOLAAN JADWAL WORKOUT"
 
-# Penjelasan
+>> Penjelasan
 
 Deskripsi Program:
   Program ini adalah aplikasi CLI (command line) sederhana berbasis Python untuk mengelola jadwal latihan olahraga (workout) mingguan. Data disimpan sementara dalam list bersarang (list berisi list)

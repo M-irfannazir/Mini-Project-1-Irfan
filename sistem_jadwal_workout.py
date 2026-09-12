@@ -183,29 +183,23 @@ def tampilkan_menu():
     print("=" * 40)
 
 
-def main():
-    print("Sistem Pengelolaan Jadwal Workout!")
+print("Sistem Pengelolaan Jadwal Workout!")
 
-    while True: 
-        tampilkan_menu()
-        pilihan = input("Pilih menu (1-5): ").strip()
+while True:
+    tampilkan_menu()
+    pilihan = input("Pilih menu (1-5): ").strip()
 
-        # Menggunakan Conditional statement untuk validasi & pengecekan menu
-        if pilihan == "1":
-            tambah_data()
-        elif pilihan == "2":
-            tampilkan_data()
-        elif pilihan == "3":
-            ubah_data()
-        elif pilihan == "4":
-            hapus_data()
-        elif pilihan == "5":
-            print("\nSemangat Pemuda Workout!! >_<")
-            break   
-        else:
-            print(" Pilihan tidak valid! Silakan pilih angka 1-5.")
-
-
-if __name__ == "__main__":
-    main()
-
+    # Menggunakan Conditional statement untuk validasi & pengecekan menu
+    if pilihan == "1":
+        tambah_data()
+    elif pilihan == "2":
+        tampilkan_data()
+    elif pilihan == "3":
+        ubah_data()
+    elif pilihan == "4":
+        hapus_data()
+    elif pilihan == "5":
+        print("\nSemangat Pemuda Workout!! >_<")
+        break
+    else:
+        print(" Pilihan tidak valid! Silakan pilih angka 1-5.")

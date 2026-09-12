@@ -1,4 +1,4 @@
-# MinPro1
+# Mini-Projrct-1-Irfan Nazir
 
 Nama : Muhammad Irfan Nazir
 Kelas : B
